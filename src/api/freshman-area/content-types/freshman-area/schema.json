@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "freshman_areas",
+  "info": {
+    "singularName": "freshman-area",
+    "pluralName": "freshman-areas",
+    "displayName": "Freshman Area",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "General_Info": {
+      "type": "richtext"
+    },
+    "FAQ": {
+      "displayName": "FAQ",
+      "type": "component",
+      "repeatable": false,
+      "component": "freshman-area.faq"
+    },
+    "Useful_Document": {
+      "displayName": "Useful_Documents",
+      "type": "component",
+      "repeatable": false,
+      "component": "freshman-area.useful-documents"
+    }
+  }
+}

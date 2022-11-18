@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "student_groups",
+  "info": {
+    "singularName": "student-group",
+    "pluralName": "student-groups",
+    "displayName": "Student_group"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Student_groups_explanation": {
+      "type": "richtext"
+    },
+    "Student_groups_project": {
+      "displayName": "Student_groups",
+      "type": "component",
+      "repeatable": true,
+      "component": "student-groups.student-groups"
+    }
+  }
+}

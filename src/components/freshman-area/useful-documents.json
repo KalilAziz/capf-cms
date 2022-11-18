@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_freshman_area_useful_documents",
+  "info": {
+    "displayName": "Useful_Documents"
+  },
+  "options": {},
+  "attributes": {
+    "Documents": {
+      "displayName": "Useful_Document_Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "freshman-area.useful-document-item"
+    }
+  }
+}

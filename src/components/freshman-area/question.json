@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_freshman_area_questions",
+  "info": {
+    "displayName": "Question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "string"
+    },
+    "Answer": {
+      "type": "richtext"
+    }
+  }
+}

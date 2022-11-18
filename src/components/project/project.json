@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_project_projects",
+  "info": {
+    "displayName": "Project"
+  },
+  "options": {},
+  "attributes": {
+    "Project_title": {
+      "type": "string",
+      "required": true
+    },
+    "Project_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "Project_intro": {
+      "type": "richtext",
+      "required": true
+    },
+    "Project_description": {
+      "type": "richtext"
+    },
+    "Project_media": {
+      "displayName": "Project_mediaList",
+      "type": "component",
+      "repeatable": true,
+      "component": "project.project-media-list"
+    },
+    "Project_email": {
+      "type": "string",
+      "default": "projeto@hotmail.com"
+    },
+    "Projeto_insta": {
+      "type": "string",
+      "default": "@insta"
+    }
+  }
+}

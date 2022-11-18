@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_us_managements",
+  "info": {
+    "displayName": "Managements"
+  },
+  "options": {},
+  "attributes": {
+    "Management_Year": {
+      "type": "string"
+    },
+    "Manager": {
+      "displayName": "Managers",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.managers"
+    }
+  }
+}

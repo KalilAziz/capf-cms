@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_about_us_managers",
+  "info": {
+    "displayName": "Managers"
+  },
+  "options": {},
+  "attributes": {
+    "Manager_Field": {
+      "type": "string",
+      "default": "Cargo",
+      "required": true
+    },
+    "Manager_Name": {
+      "type": "string",
+      "default": "Nome"
+    },
+    "Manager_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

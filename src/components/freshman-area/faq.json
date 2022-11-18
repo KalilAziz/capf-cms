@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_freshman_area_faqs",
+  "info": {
+    "displayName": "FAQ"
+  },
+  "options": {},
+  "attributes": {
+    "Question_item": {
+      "displayName": "Question",
+      "type": "component",
+      "repeatable": true,
+      "component": "freshman-area.question"
+    }
+  }
+}

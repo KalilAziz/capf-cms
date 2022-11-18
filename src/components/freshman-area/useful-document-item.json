@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_freshman_area_useful_document_items",
+  "info": {
+    "displayName": "Useful_Document_Item"
+  },
+  "options": {},
+  "attributes": {
+    "Document_title": {
+      "type": "string"
+    },
+    "Document_description": {
+      "type": "richtext"
+    },
+    "Document_media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

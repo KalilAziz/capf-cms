@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_project_project_media_lists",
+  "info": {
+    "displayName": "Project_mediaList"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

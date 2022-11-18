@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_student_groups_student_groups",
+  "info": {
+    "displayName": "Student_groups"
+  },
+  "options": {},
+  "attributes": {
+    "Student_groups_title": {
+      "type": "string"
+    },
+    "Student_groups_description": {
+      "type": "richtext"
+    },
+    "Student_groups_subscribe": {
+      "type": "richtext"
+    },
+    "Student_groups_works": {
+      "type": "richtext"
+    },
+    "Student_groups_image_white": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "Student_groups_image_dark": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Student_groups_facebook": {
+      "type": "string"
+    },
+    "Student_groups_instagram": {
+      "type": "string"
+    }
+  }
+}
