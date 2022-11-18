@@ -7,13 +7,15 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "deploy-Heroku": "git push heroku HEAD:main",
+    "heroku-open": "heroku open"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.5.1",
-    "@strapi/plugin-users-permissions": "4.5.1",
     "@strapi/plugin-i18n": "4.5.1",
+    "@strapi/plugin-users-permissions": "4.5.1",
+    "@strapi/provider-upload-cloudinary": "^4.5.1",
+    "@strapi/strapi": "4.5.1",
     "pg": "8.6.0"
   },
   "author": {
